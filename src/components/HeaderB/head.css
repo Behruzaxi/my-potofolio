@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.one{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 250px;
+    height: 180px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    box-shadow: 10px 10px 5px #ccc
+}
+
+.des{
+    margin-top: -240px;
+    margin-left: 300px;
+}
+
+.dash{
+    color: #8695A4;
+    margin-left: 400px;
+}
+
+.veli{
+    padding-left: 300px;
+}
+
+.hr{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.but{
+    background-color: aqua;
+    margin-left: 300px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-right: 10px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.bhu{
+    background-color: aqua;
+    margin-left: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-right: 10px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.twwobut{
+    background-color: rgb(43, 239, 56);
+    margin-left: 300px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-right: 10px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 10px; 
+}
+
+.githbbt{
+    background-color: rgb(43, 239, 56);
+    margin-left: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-right: 10px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 10px; 
+}
+
+.lokbt{
+    background-color: rgb(250, 206, 47);
+    margin-left: 300px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-right: 10px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 10px; 
+}
+
+.lobtg{
+    background-color: rgb(250, 206, 47);
+    margin-left: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-right: 10px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 10px; 
+}
