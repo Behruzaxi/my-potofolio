@@ -32,7 +32,7 @@ export default function NavbarB() {
                         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet<br></br> sint. Velit officia consequat duis enim velit mollit. Exercitation veniam<br></br> consequat sunt nostrud amet.
                         </p>
 
-                        <img src={skywhy} className="skywhy"/>
+                        <img src={skywhy} className="skywhy" alt=""/>
 
                         <button className='firbtn'>Download Resume</button>
 
