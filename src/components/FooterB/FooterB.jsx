@@ -1,10 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import "./foot.css"
 import { Accordion, Button, Col, Container, DropdownButton, Form, ListGroup, Row } from 'react-bootstrap'
-import GitHubIcon from '@mui/icons-material/GitHub';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import YouTubeIcon from '@mui/icons-material/YouTube';
-import TelegramIcon from '@mui/icons-material/Telegram';
 import axios from 'axios';
 
 
@@ -36,6 +32,7 @@ export default function FooterB() {
         axios.delete(`https://newrepository-production.up.railway.app/data/${id}`)
         // .then((res) => alert("deleted"))
         setGetdata(getdata.filter((el) => el.id !== id))
+
     }
 
     useEffect(() => {
@@ -72,7 +69,6 @@ export default function FooterB() {
                             {getdata?.map((user) => {
                                 return (
                                     <>
-
                                         <DropdownButton id="dropdown-basic-button" title="All" >
                                             <DropdownButton id="dropdown-basic-button" title="Look">
                                                 <Accordion className='acrdio'>
@@ -89,6 +85,7 @@ export default function FooterB() {
                                             </DropdownButton>
                                         </DropdownButton>
                                     </>
+
                                 )
                             })}
                         </ListGroup>
@@ -100,18 +97,10 @@ export default function FooterB() {
                 <Row className='justify-content-center mt-5'>
                     <Col>
                         <div className='icls'>
-                            <a href='https://github.com/Behruzaxi'>
-                                <GitHubIcon className='ico' style={{ fontSize: '60px', paddingLeft: "10px" }} />
-                            </a>
-                            <a href='https://www.instagram.com/s.p.a.c.e.o.n.e/'>
-                                <InstagramIcon className='ico' style={{ fontSize: '60px', paddingLeft: "10px" }} />
-                            </a>
-                            <a href='https://www.youtube.com/channel/UCaVht7onlYQ3Jj3sqwvnhPg'>
-                                <YouTubeIcon className='ico' style={{ fontSize: '60px', paddingLeft: "10px" }} />
-                            </a>
-                            <a href='https://t.me/spaceone_csgo'>
-                                <TelegramIcon className='ico' style={{ fontSize: '60px', paddingLeft: "10px" }} />
-                            </a>
+                            <i class="fa-brands fa-github" ></i>
+                            <i class="fa-brands fa-youtube"></i>
+                            <i class="fa-brands fa-square-instagram"></i>
+                            <i class="fa-brands fa-telegram"></i>
                         </div>
 
 

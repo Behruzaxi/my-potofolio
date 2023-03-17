@@ -6,8 +6,15 @@
 
 
 .icls{
-    margin-left: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    gap: 20px;
+    padding-right: 50px;
+    
 }
+
 
 .olti{
     margin-top: 20px;
