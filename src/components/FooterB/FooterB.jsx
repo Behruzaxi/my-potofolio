@@ -97,11 +97,20 @@ export default function FooterB() {
                 <Row className='justify-content-center mt-5'>
                     <Col>
                         <div className='icls'>
-                            <i class="fa-brands fa-github" ></i>
-                            <i class="fa-brands fa-youtube"></i>
-                            <i class="fa-brands fa-square-instagram"></i>
-                            <i class="fa-brands fa-telegram"></i>
+                            <a href='https://github.com/Behruzaxi'>
+                                <i class="fa-brands fa-github" ></i>
+                            </a>
+                            <a href='https://www.instagram.com/s.p.a.c.e.o.n.e/'>
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                            <a href='https://www.youtube.com/channel/UCaVht7onlYQ3Jj3sqwvnhPg'>
+                                <i class="fa-brands fa-square-instagram"></i>
+                            </a>
+                            <a href='https://t.me/spaceone_csgo'>
+                                <i class="fa-brands fa-telegram"></i>
+                            </a>
                         </div>
+
 
 
                         <h6 className='olti'>Copyright ©2020 All rights reserved </h6>

@@ -1,6 +1,5 @@
 import React from 'react'
-import { Button, Col, Container, Row } from 'react-bootstrap'
-import { Form } from 'react-router-dom'
+import {Col, Container, Row } from 'react-bootstrap'
 import "./head.css"
 const one = require("../imagebex/one.png")
 const two = require("../imagebex/two.png")

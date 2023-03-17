@@ -1,7 +1,7 @@
 import React from 'react'
 import "./navb.css"
 import { Col, Container, Row } from 'react-bootstrap'
-const airstr = require("../imagebex/air.jpg")
+const skywhy = require("../imagebex/posidonskiy.png")
 
 export default function NavbarB() {
     return (
@@ -31,8 +31,8 @@ export default function NavbarB() {
                         <p className='pi'>
                         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet<br></br> sint. Velit officia consequat duis enim velit mollit. Exercitation veniam<br></br> consequat sunt nostrud amet.
                         </p>
-                        
-                        <img src={airstr} className='airst'/>
+
+                        <img src={skywhy} className="skywhy"/>
 
                         <button className='firbtn'>Download Resume</button>
 

@@ -22,20 +22,20 @@ padding-left: 40px;
 
 .hbir{
     margin-top: 190px;
-    text-shadow: 2px 2px 5px red;
+    text-shadow: 2px 2px 5px rgb(60, 59, 59);
 }
 
 .pi{
     margin-top: 30px;
-    text-shadow: 2px 2px 5px red;  
+    text-shadow: 2px 2px 5px rgb(78, 74, 74);  
 }
 
-.airst{
-    width: 240px;
+.skywhy{
+        width: 240px;
     border-radius: 50%;
     margin-left: 800px;
     margin-top: -270px;
-    box-shadow: 21px 10px 20px  13px rgb(243, 120, 120);
+    box-shadow: 21px 10px 20px  13px rgb(54, 52, 52);
 }
 
 .firbtn{
