@@ -11,7 +11,42 @@ export default function HeaderB() {
             <Container>
                 <Row>
                     <h5 className='work'>Featured works</h5>
-                    <Col xs={10}>
+                    <Col xs={12} lg={12} className='d-block d-sm-none'>
+                    <img className='one' src={bir} alt=""/>
+                    <h3 id='weather-responsive'>Weather project</h3>
+                    <div id='date-info'>
+                    <button id='date'><a href=""></a>Look</button>
+                    <a href="" id='github-link'>GitHub</a>
+                    </div>
+                    <p id='info-responsive'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia <br /> consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+
+                    </Col>
+                    <Col xs={12} lg={12} className='d-block d-sm-none'>
+                    <img className='one' src={bir} alt=""/>
+                    <h3 id='weather-responsive'>Weather project</h3>
+                    <div id='date-info'>
+                    <button id='date'><a href=""></a>Look</button>
+                    <a href="" id='github-link'>GitHub</a>
+                    </div>
+                    <p id='info-responsive'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia <br /> consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+
+                    </Col>
+                    <Col xs={12} lg={12} className='d-block d-sm-none'>
+                    <img className='one' src={bir} alt=""/>
+                    <h3 id='weather-responsive'>Weather project</h3>
+                    <div id='date-info'>
+                    <button id='date'><a href=""></a>Look</button>
+                    <a href="" id='github-link'>GitHub</a>
+                    </div>
+                    <p id='info-responsive'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia <br /> consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+
+                    </Col>
+
+
+
+
+
+                    <Col xs={5} lg={10} className='d-none d-sm-block'>
                         <img className='one' src={bir} alt=""/>
                         <h3 className='des'>Weather project</h3>
                         <br></br>
@@ -26,7 +61,7 @@ export default function HeaderB() {
                     </Col>
                 </Row>
                 <Row>
-                    <Col xs={10}>
+                    <Col xs={5} lg={10} className='d-none d-sm-block'>
                         <img className='one' src={ikki}  alt=""/>
                         <h3 className='des'>Create Project</h3>
                         <br></br>
@@ -41,7 +76,7 @@ export default function HeaderB() {
                     </Col>
                 </Row>
                 <Row>
-                    <Col xs={10}>
+                    <Col xs={5} lg={10} className='d-none d-sm-block'>
                         <img className='one'  src={uch}  alt=""/>
                         <h3 className='des'>Dynamic Buttons Project</h3>
                         <br></br>

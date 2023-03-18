@@ -22,9 +22,9 @@ export default function NavbarB() {
                 </Row>
 
                 <Row>
-                    <Col xs={6}>
+                    <Col xs={10}>
                         <h1 className='hbir'>
-                            Hi, I am Bekhruz,<br></br>
+                            Hi, I am Bekhruz,<br />
                             Creative Technologist
                         </h1>
 
@@ -32,9 +32,9 @@ export default function NavbarB() {
                         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet<br></br> sint. Velit officia consequat duis enim velit mollit. Exercitation veniam<br></br> consequat sunt nostrud amet.
                         </p>
 
+                        <button className='firbtn'>Download Resume</button>
                         <img src={skywhy} className="skywhy" alt=""/>
 
-                        <button className='firbtn'>Download Resume</button>
 
                     </Col>
                 </Row>

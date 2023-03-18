@@ -1,44 +1,56 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.newpos{
+.newpos {
     display: flex;
-   list-style: none;
-   margin-left: 750px;
+    list-style: none;
+    margin-left: 750px;
     margin-top: 50px;
 }
 
 
-.list_ny{
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 29px;
-text-align: right;
-padding-left: 40px;
+.list_ny {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: right;
+    padding-left: 40px;
 }
 
-.hbir{
+.hbir {
     margin-top: 190px;
     text-shadow: 2px 2px 5px rgb(60, 59, 59);
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 60px;
+    color: #21243D
 }
 
-.pi{
+.pi {
     margin-top: 30px;
-    text-shadow: 2px 2px 5px rgb(78, 74, 74);  
+    text-shadow: 2px 2px 5px rgb(78, 74, 74);
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D
 }
 
-.skywhy{
-        width: 240px;
+.skywhy {
+    width: 240px;
     border-radius: 50%;
     margin-left: 800px;
     margin-top: -270px;
-    box-shadow: 21px 10px 20px  13px rgb(54, 52, 52);
+    box-shadow: 21px 10px 20px 13px rgb(54, 52, 52);
 }
 
-.firbtn{
+.firbtn {
     margin-top: 20px;
     background: #FF6464;
     padding-left: 10px;
@@ -51,3 +63,29 @@ padding-left: 40px;
 }
 
 
+@media (max-width: 575px) {
+    .newpos {
+        margin-left: 0px;
+    }
+
+    .hbir {
+        padding-left: 70px;
+        margin-top: 50px;
+        font-size: 50px;
+    }
+
+    .pi {
+        margin-left: 75px;
+        font-size: 18px;
+    }
+
+    .firbtn {
+        margin-left: 80px;
+        margin-top: 50px;
+    }
+
+    .skywhy {
+        margin-left: 50px;
+        margin-top: 100px;
+    }
+}
